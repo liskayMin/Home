@@ -67,4 +67,7 @@ def prop_missing(vec):
     return num / dem
 
 pmis_col = titanic.apply(prop_missing)
-print(pmis_col)
+# print(pmis_col)
+
+def prop_complete(vec):
+    return 1-prop_missing(vec)
