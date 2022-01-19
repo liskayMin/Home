@@ -19,8 +19,6 @@ function paintGreetings(username) {
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-
-
 if(savedUsername === null) {
     loginForm.classList.remove(HIDDEN_CLASSNAME);
     loginForm.addEventListener("submit", onLoginSubmit);
